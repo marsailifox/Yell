@@ -1,0 +1,4 @@
+<form action="/reviews/<%=movie._id%>/<%= review._id %>?_method=PUT" method="POST">
+    <input type="text" name="content"value="<%=review.content%>"></input>
+    <button type="submit">Edit</button>
+  </form>
